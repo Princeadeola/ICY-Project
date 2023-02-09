@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-image: url(i.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 700;
+}
+.sub1, .sub2 {
+    display: flex;
+    margin-top: 1%;
+}
+.container {
+    display: flex;
+    font-size: 30px;
+    margin-left: 18%;
+    margin-top: 5%;
+}
+li {
+    color: #ffffff;
+}
+a {
+    padding: 13px;
+    color: #0505db;
+    transition: ease 0.5sec;
+}
+a:hover {
+    color: #dfd9e6;
+    opacity: 100%;
+}
+.navlinks {
+    display: flex;
+    text-decoration: underline;
+}
